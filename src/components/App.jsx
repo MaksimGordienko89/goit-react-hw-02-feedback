@@ -1,5 +1,5 @@
 import React from 'react';
-import FeedbackList from './Components/FeedbackList/FeedbackList';
+import FeedbackList from '../components/FeedbackList/FeedbackList';
 
 class App extends React.Component {
   render() {
