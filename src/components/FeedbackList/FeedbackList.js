@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
@@ -62,14 +62,14 @@ class FeedbackList extends Component {
   }
 }
 
-FeedbackList.propTypes = {
-  state: PropTypes.arrayOf(
-    PropTypes.shape({
-      good: PropTypes.number.isRequired,
-      neutral: PropTypes.number.isRequired,
-      bad: PropTypes.number.isRequired,
-    })
-  ),
-};
+// FeedbackList.propTypes = {
+//   state: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       good: PropTypes.number.isRequired,
+//       neutral: PropTypes.number.isRequired,
+//       bad: PropTypes.number.isRequired,
+//     })
+//   ),
+// };
 
 export default FeedbackList;
